@@ -7,10 +7,10 @@ Make sure that your AI vision dev kit is plugged to power via USB and connected 
 
 ### Get an Azure subscription
 Use this account to login to Azure, see and deploy Azure resources:
-- user: lab.user<YourStationNumber>@msiotlabs.com where <YourStationNumber> is the number on yoru AI vision dev kit (between 01 and 24)
+- user: lab.user00@msiotlabs.com where 00 is the number on your AI vision dev kit (between 01 and 24)
 - password: *Provided by the lab at your station* 
 - subscription: MS IoT Labs - Vision AI DevKit
-- resource group: msiotlabs-user<YourStationNumber>-visionkit where <YourStationNumber> is the number on yoru AI vision dev kit (between 01 and 24)
+- resource group: msiotlabs-user-00-visionkit where 00 is the number on yoru AI vision dev kit (between 01 and 24)
 
 ### Set up Azure IoT resources
 Your device has already been set up as an Azure IoT Edge device, connected to an IoT Hub. This will enable you to remotely manage it. Let's first verify that your setup looks correct:
