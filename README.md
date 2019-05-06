@@ -28,10 +28,7 @@ We will now deploy an sample AI model to the camera. For that, we will use the A
 
 - Choose your subscription, your IoT Hub, find your device named `visionkit` and click on `Next`
 
-- We'll use a preview version of IoT Edge for this device, click on `Configure advanced Edge runtime settings` and do the following updates:
-    - replace the edgeHub URI from `mcr.microsoft.com/azureiotedge-hub:1.0` to `mcr.microsoft.com/azureiotedge-hub:1.0.7-rc2`
-    - replace the edgeAgent URI from `mcr.microsoft.com/azureiotedge-agent:1.0` to `mcr.microsoft.com/azureiotedge-agent:1.0.7-rc2`
-    - finally add the environment variable `OptimizeForPerformance` set to `False` for the edgeHub. 
+- We'll add an optimization of the edge runtime to make it run faster on this type of devices, click on `Configure advanced Edge runtime settings` and add the environment variable `OptimizeForPerformance` set to `False` for the edgeHub. 
 
 - Confirm the deployment by clicking on `Next` twice then `Submit`
 
